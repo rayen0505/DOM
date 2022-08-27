@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');*{
+  margin: 0 auto;
+}
+html, body {
+    height: 100%;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-image: url(https://cutewallpaper.org/21/red-and-black-wallpapers/50-Red-and-Black-backgrounds-Download-free-amazing-.jpg);
+
+}
+
+.div1 h1{
+  color: white;
+  font-family: Fredoka One;
+  
+}
+
+.div1{
+  margin-top: 100px;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-align: center;
+}
+
+.div1 button{
+  margin-top: 150px;
+  background-color: white;
+  color: black;
+  border-color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family:roboto ;
+}
+
+#div2{
+  display: flex;
+  justify-content: space-around;
+  width: 1050px;
+  margin-top: 250px;
+  flex-direction: column;
+}
+.div3{
+  display: flex;
+}
+
+.info{
+  background-color: white;
+  margin: 15px;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.info h1{
+  text-align: center;
+  margin: 20px;
+  font-family: roboto;
+}
+
+.info h3{
+  text-align: center;
+  margin: 50px;
+  height: 100px;
+}
+
+.info button{
+  margin-top: 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.571);
+  border-color: rgba(0, 0, 0, 0.571);
+  border-radius: 15px;
+  font-size: 20px;
+}
+button:hover{
+  box-shadow: 1px 1px 1px 1px black;
+}
+.info:hover{
+  box-shadow: 4px 4px 4px 4px rgba(156, 28, 28, 0.785);
+}
+.descrption{
+  color: white;
+  text-align: center;
+  font-family: roboto;
+  width: 1050px;
+  margin-bottom: 50px;
+  
+}
+
+
+#div4{
+  color: gray;
+  font-size: 20px;
+  display: flex;
+  margin-top: 100px;
+}
+
